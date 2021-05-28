@@ -1,0 +1,132 @@
+.topnav {
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background: transparent;
+    z-index: 3;   
+    text-shadow: 2px 3px 5px red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(11, 15, 247);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.button {
+    z-index: 4;
+    margin: top 25px;
+    position: absolute;
+    margin-left:45%;
+
+}
+
+
+
+.slides-navigation a.next,
+.slides-navigation a.prev {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.slides-navigation a.next{
+ background-image: url(../img/icon/right.png);
+
+}
+
+.slides-navigation a.prev{
+    background-image: url(../img/icon/left.png);
+}
+.titleMessage {
+    position : absolute;
+    z-index: 3;
+    width : 100%;
+    height : 250px;
+    top : 35%;
+    color : rgba(6, 100, 240, 0.774);
+    text-align: center;
+    
+}
+.titleMessage .heading .main{
+    font-size :60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 3px 5px red;
+}
+.titleMessage .heading .sub{
+    font-size :34px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 3px 5px red;
+}
+
+.section{
+    padding: 100px 0px;
+}
+.aboutImage{
+    width: 500px;
+    max-width: 100%;
+    height:600px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+
+    height: 400px;
+    width: 1520px;
+}
+#footer1{
+    background-color:transparent;
+    height: 50px;
+    width: 1520px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+#footer2{
+    background-color:transparent;
+    text-align: center;
+    height: 100px;
+    width: 1520px;
+}
+#footer3{
+    background-color: black;
+    height: 75px;
+    width: 1520px;
+    text-align: center;
+}
